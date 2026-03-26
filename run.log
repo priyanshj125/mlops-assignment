@@ -1,0 +1,15 @@
+2026-03-26 17:26:55 | INFO     | ==================================================
+2026-03-26 17:26:55 | INFO     | Job started
+2026-03-26 17:26:55 | INFO     | ==================================================
+2026-03-26 17:26:55 | INFO     | Loading config from: config.yaml
+2026-03-26 17:26:55 | INFO     | Config validated — seed=42, window=5, version=v1
+2026-03-26 17:26:55 | INFO     | Random seed set to 42
+2026-03-26 17:26:55 | INFO     | Loading data from: data.csv
+2026-03-26 17:26:55 | INFO     | Data loaded — 10000 rows, columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-03-26 17:26:55 | INFO     | Computing rolling mean with window=5
+2026-03-26 17:26:55 | INFO     | Signal generation complete — 9996 valid signals out of 10000 rows
+2026-03-26 17:26:56 | INFO     | Metrics: rows_processed=10000, signal_rate=0.4991, latency_ms=85
+2026-03-26 17:26:56 | INFO     | Metrics written to: metrics.json
+2026-03-26 17:26:56 | INFO     | ==================================================
+2026-03-26 17:26:56 | INFO     | Job completed — status: success
+2026-03-26 17:26:56 | INFO     | ==================================================
